@@ -1,0 +1,87 @@
+:root{--azul:#14233d;--azul-claro:#263d5e;--dorado:#d5a347;--crema:#f6f3eb;--texto:#29364a;--gris:#6d7787;--linea:#e5e1d8}*{box-sizing:border-box}html,body{min-height:100vh}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--texto);line-height:1.6;display:flex;flex-direction:column}main{flex:1 0 auto;display:flex;flex-direction:column}a{color:inherit;text-decoration:none}.contenedor{width:min(1080px,calc(100% - 40px));margin:auto}.site-header{background:var(--azul);color:white}.menu{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{font-weight:bold;letter-spacing:2px;font-size:21px;color:white}.logo span{color:var(--dorado)}.links{display:flex;align-items:center;gap:24px;font-size:13px}.links a:hover,.links .login-link{color:var(--dorado)}.hero{background:var(--crema);padding:54px 0}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.etiqueta,.numero{color:#98712e;font-size:11px;font-weight:bold;letter-spacing:1.2px}.hero h1,.pagina-cabecera h1,.auth-info h1{font:normal 46px/1.16 Georgia,serif;color:var(--azul);margin:16px 0}.hero h1 em{color:#a8792b}.hero-text>p,.pagina-cabecera p,.auth-info p{max-width:540px;color:var(--gris);font-size:15px}.acciones{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:24px 0}.boton{display:inline-block;background:var(--dorado);color:var(--azul);border:0;border-radius:4px;padding:12px 18px;font-weight:bold;font-size:13px;cursor:pointer;text-decoration:none}.boton:hover{background:#e2b45d;text-decoration:none}.boton-oscuro{background:var(--azul);color:white;text-decoration:none}.enlace{font-size:13px;font-weight:bold;text-decoration:none}.nota-seguridad{border-left:3px solid var(--dorado);padding-left:13px;display:flex;flex-direction:column;font-size:12px;color:var(--gris)}.nota-seguridad strong{color:var(--azul)}.carrusel{height:340px;position:relative;overflow:hidden;border-radius:7px;background:#b89965;box-shadow:0 12px 30px #14233d18}.slide{position:absolute;inset:0;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;color:white;opacity:0;animation:rotar 15s infinite}.slide span{font-size:10px;letter-spacing:1.5px}.slide h2{font:normal 42px Georgia,serif;margin:5px 0}.slide p{font-size:13px}.slide-esfuerzo{background:linear-gradient(145deg,#d4bb85,#866343);animation-delay:0s}.slide-confianza{background:linear-gradient(145deg,#a9c0b3,#4c7472);animation-delay:-10s}.slide-calidad{background:linear-gradient(145deg,#e0bd86,#a76551);animation-delay:-5s}@keyframes rotar{0%,27%{opacity:1}34%,94%{opacity:0}100%{opacity:1}}.seccion{padding-top:52px;padding-bottom:58px}.titulo-seccion{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}.titulo-seccion h2{font:normal 30px Georgia,serif;color:var(--azul);margin:5px 0}.tarjetas{display:grid;gap:18px}.tarjetas.dos{grid-template-columns:repeat(2,1fr)}.tarjeta,.trabajo{display:block;padding:24px;background:white;border:1px solid var(--linea);border-radius:5px}.tarjeta:hover{border-color:var(--dorado)}.tarjeta h2,.tarjeta h3,.trabajo h2{font:normal 22px Georgia,serif;color:var(--azul);margin:10px 0}.tarjeta p,.trabajo p{font-size:13px;color:var(--gris)}.tarjeta b{font-size:12px;color:#8b651f}.banda{background:var(--azul);color:white;padding:28px 0}.banda-inner{display:flex;justify-content:space-between;align-items:center;gap:35px}.banda h2{font:normal 23px Georgia,serif;max-width:400px}.banda p{font-size:13px;color:#d8dce2;max-width:430px}.pagina-cabecera{background:var(--azul);color:white;padding:45px 0}.pagina-cabecera h1{color:white;font-size:40px}.pagina-cabecera p{color:#d2d8e1}.auth-layout{background:var(--crema);min-height:570px;padding:48px max(24px,calc((100vw - 980px)/2));display:grid;grid-template-columns:1fr 420px;gap:60px;align-items:center}.auth-info{background:var(--azul);padding:45px;border-radius:5px;min-height:360px;color:white}.auth-info h1{color:white;font-size:40px}.auth-info p{color:#d5dbe4}.form-card{background:white;padding:30px;border:1px solid var(--linea);border-radius:5px}.form-card h2{font:normal 26px Georgia,serif;color:var(--azul);margin:0}.texto-suave,.cambio-cuenta{font-size:12px;color:var(--gris)}form{display:flex;flex-direction:column;gap:8px}form label{font-size:12px;font-weight:bold;margin-top:8px}form input{width:100%;height:40px;padding:8px 10px;border:1px solid #d5d5d0;border-radius:3px;font:13px Arial}form input:focus{outline:2px solid #d5a34755;border-color:var(--dorado)}form small{font-size:10px;color:var(--gris)}.ancho{width:100%;margin-top:12px}.cambio-cuenta{text-align:center;margin:15px 0 0}.cambio-cuenta a{color:#8b651f;font-weight:bold}.mensaje-error,.aviso{padding:12px;background:#fff0ef;color:#8a3e39;font-size:12px;margin:12px 0}.lista-trabajos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.trabajo{border-top:3px solid var(--dorado)}.trabajo p{line-height:1.7}.aviso{grid-column:1/-1;background:#fbf5e8;color:#655d4c;border:1px solid #efdfbd}.site-footer{margin-top:auto;background:#0c1729;color:#d4d8df;padding:22px 0}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px}.footer-inner p,.footer-inner small{font-size:11px}.site-footer .logo{font-size:16px}@media(max-width:760px){.menu{align-items:flex-start;padding:16px 0;flex-direction:column}.links{gap:14px;flex-wrap:wrap}.hero-grid,.auth-layout{grid-template-columns:1fr}.hero-grid{gap:25px}.hero h1{font-size:39px}.auth-layout{padding:25px 20px;gap:18px}.auth-info{min-height:auto;padding:28px}.auth-info h1{font-size:34px}.tarjetas.dos,.lista-trabajos{grid-template-columns:1fr}.banda-inner,.footer-inner{align-items:flex-start;flex-direction:column;gap:8px}.carrusel{height:280px}.pagina-cabecera h1{font-size:34px}}
+
+.panel-vacantes{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}.panel-vacantes .form-card{max-width:none}.panel-vacantes form textarea,.panel-vacantes form select{width:100%;padding:10px;border:1px solid #d5d5d0;border-radius:3px;font:13px Arial;color:var(--texto);resize:vertical}.campos-vacante{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mensaje-exito{padding:12px;background:#edf7ee;color:#28643a;font-size:13px;margin:12px 0}.vacantes-publicadas>h2{font:normal 26px Georgia,serif;color:var(--azul);margin:0 0 16px}.vacantes-publicadas .trabajo{margin-bottom:14px}.vacantes-publicadas .trabajo h2{font-size:20px}.vacantes-publicadas .trabajo p{white-space:normal}@media(max-width:760px){.panel-vacantes,.campos-vacante{grid-template-columns:1fr}}
+
+/* Estilos adicionales para la integración de base de datos unificada */
+.auth-bar{display:flex;align-items:center;gap:10px}
+.usuario-tag{font-size:13px;color:white;display:flex;align-items:center;gap:6px}
+.tipo-badge{padding:2px 6px;border-radius:3px;font-size:10px;font-weight:bold;text-transform:uppercase}
+.tipo-badge.admin{background:#e06d53;color:white}
+.tipo-badge.empresa{background:#d5a347;color:#14233d}
+.tipo-badge.empleado{background:#4c9a84;color:white}
+.boton-sm{display:inline-block;padding:6px 12px;font-size:12px;font-weight:bold;border-radius:3px;cursor:pointer;background:var(--dorado);color:var(--azul);border:none;text-decoration:none}
+.boton-sm:hover{background:#e2b45d;text-decoration:none}
+.boton-destacado{background:var(--dorado);color:var(--azul);text-decoration:none}
+.boton-outline{background:transparent;color:white;border:1px solid rgba(255,255,255,0.4);text-decoration:none}
+.boton-outline:hover{background:rgba(255,255,255,0.1);color:white;text-decoration:none}
+.demo-box{margin-top:24px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.15);border-radius:6px;padding:16px;font-size:12px}
+.demo-box h3{margin:0 0 10px 0;font-size:13px;color:var(--dorado)}
+.demo-item{margin-bottom:6px;color:#d5dbe4}
+.demo-item code{background:rgba(0,0,0,0.3);padding:2px 5px;border-radius:3px;color:#f6f3eb}
+.caja-tutor{background:#fff8e8;border:1px solid #e8c983;border-radius:4px;padding:14px;margin-top:10px}
+.aviso-tutor{font-size:12px;color:#855d14;margin-bottom:10px;display:flex;flex-direction:column;gap:2px}
+.grilla-empleos{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
+.trabajo-header{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.etiqueta-tipo{font-size:11px;font-weight:bold;color:var(--dorado);letter-spacing:1px}
+.etiqueta-cat{font-size:11px;color:var(--gris)}
+.etiqueta-verificada{font-size:11px;color:#1f7a46;background:#e2f5e8;padding:2px 6px;border-radius:3px;font-weight:bold}
+.empresa-nombre{color:var(--azul);font-size:14px;margin:4px 0 10px}
+.trabajo-desc{font-size:13px;color:var(--texto);margin-bottom:10px}
+.trabajo-dato{font-size:12px;color:var(--gris);margin:4px 0}
+.trabajo-meta{display:flex;gap:15px;font-size:12px;color:var(--gris);margin:12px 0;padding-top:8px;border-top:1px dashed var(--linea)}
+.trabajo-acciones{margin-top:14px}
+.badge-postulado{display:inline-block;background:#e2f5e8;color:#1f7a46;padding:6px 12px;border-radius:4px;font-size:12px;font-weight:bold}
+.form-postular{display:flex;flex-direction:column;gap:8px}
+.input-mensaje-postular{width:100%;height:34px;padding:6px 10px;border:1px solid #d5d5d0;border-radius:3px;font-size:12px}
+.tabla-contenedor{overflow-x:auto;background:white;border:1px solid var(--linea);border-radius:6px}
+.tabla-panel{width:100%;border-collapse:collapse;font-size:13px;text-align:left}
+.tabla-panel th{background:#f6f3eb;padding:12px;font-weight:bold;color:var(--azul);border-bottom:1px solid var(--linea)}
+.tabla-panel td{padding:12px;border-bottom:1px solid var(--linea);vertical-align:top}
+.badge-menor{background:#fef3c7;color:#92400e;font-size:11px;font-weight:bold;padding:2px 6px;border-radius:3px;display:inline-block}
+.badge-mayor{background:#e0e7ff;color:#3730a3;font-size:11px;font-weight:bold;padding:2px 6px;border-radius:3px;display:inline-block}
+.badge-estado{display:inline-block;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:bold}
+.badge-pendiente{background:#fef3c7;color:#92400e}
+.badge-revision{background:#dbeafe;color:#1e40af}
+.badge-entrevista{background:#d1fae5;color:#065f46}
+.badge-contratado{background:#10b981;color:white}
+.badge-rechazado{background:#fee2e2;color:#991b1b}
+.select-sm{padding:4px 8px;font-size:12px;border-radius:3px;border:1px solid #ccc}
+.form-cambiar-estado{display:flex;gap:6px;align-items:center}
+.auth-footer-links{margin-top:16px;font-size:12px;color:var(--gris);text-align:center}
+.enlaces-registro{display:flex;justify-content:center;gap:8px;margin-top:4px}
+.enlaces-registro a{color:var(--dorado);font-weight:bold}
+
+
+/* Estilos para interactividad de botones y demo box */
+.demo-card{display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);padding:10px 12px;border-radius:5px;margin-bottom:8px;cursor:pointer;transition:all 0.2s}
+.demo-card:hover{background:rgba(255,255,255,0.12);border-color:var(--dorado)}
+.demo-info{display:flex;flex-direction:column;gap:2px}
+.demo-info code{font-size:11px;color:#f6f3eb}
+.demo-botones{display:flex;gap:6px}
+.btn-demo{padding:4px 8px;font-size:11px;font-weight:bold;background:rgba(255,255,255,0.15);color:white;border:1px solid rgba(255,255,255,0.25);border-radius:3px;cursor:pointer;transition:background 0.2s}
+.btn-demo:hover{background:rgba(255,255,255,0.3)}
+.btn-demo-directo{background:var(--dorado);color:var(--azul);border-color:var(--dorado)}
+.btn-demo-directo:hover{background:#e2b45d}
+
+.barra-filtro{display:flex;gap:10px;align-items:center}
+.input-filtro{flex:1;height:42px;padding:8px 14px;border:1px solid #d5d5d0;border-radius:4px;font:14px Arial}
+.input-filtro:focus{outline:2px solid #d5a34755;border-color:var(--dorado)}
+
+.boton-outline-oscuro{background:transparent;color:var(--azul);border:1px solid var(--azul)}
+.boton-outline-oscuro:hover{background:var(--azul);color:white}
+.boton-peligro{background:#dc2626;color:white;border:none}
+.boton-peligro:hover{background:#b91c1c}
+.boton-exito{background:#16a34a;color:white;border:none}
+.boton-exito:hover{background:#15803d}
+
+.badge-whatsapp{color:#15803d;background:#dcfce7;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:bold;display:inline-block;text-decoration:none}
+.badge-whatsapp:hover{background:#bbf7d0}
+.enlace-contacto{color:var(--azul);text-decoration:none;font-size:12px}
+.enlace-contacto:hover{text-decoration:underline;color:#98712e}
+
+button{font-family:inherit}
+.boton:active,.boton-sm:active{transform:translateY(1px)}
+
+.footer-admin-acceso{display:flex;align-items:center}
+.boton-admin-footer{display:inline-flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.05);color:#a0aec0;border:1px solid rgba(255,255,255,0.15);padding:4px 8px;border-radius:4px;font-size:13px;line-height:1;text-decoration:none;transition:all 0.2s ease}
+.boton-admin-footer:hover{background:rgba(255,255,255,0.18);border-color:rgba(255,255,255,0.35);transform:scale(1.05)}

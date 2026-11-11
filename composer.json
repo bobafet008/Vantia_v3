@@ -1,0 +1,7 @@
+{
+    "name": "vantia/vantia-v2",
+    "description": "Plataforma Vantia de Empleabilidad Juvenil Verificada",
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    }
+}

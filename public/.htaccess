@@ -1,0 +1,7 @@
+DirectoryIndex ban.php
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^index\.php(.*)$ ban.php$1 [QSA,L]
+</IfModule>
